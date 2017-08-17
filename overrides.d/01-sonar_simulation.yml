@@ -5,3 +5,5 @@
     github: Brazilian-Institute-of-Robotics/gui-vizkit
 - gui/vizkit3d:
     github: Brazilian-Institute-of-Robotics/gui-vizkit3d
+- gui/robot_model:
+    github: Brazilian-Institute-of-Robotics/gui-robot_model
