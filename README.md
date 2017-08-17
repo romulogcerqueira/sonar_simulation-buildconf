@@ -5,7 +5,7 @@ This repository contains the build system for imaging sonar simulation as presen
 
 *A novel GPU-based sonar simulator for real-time applications* <br>
 R. Cerqueira, T. Trocoli, G. Neves, S. Joyeux, J. Albiez and L. Oliveira <br>
-Elsevier Computers & Graphics Journal
+Elsevier Computers & Graphics Journal, 2017
 
 How to install
 ==========================
