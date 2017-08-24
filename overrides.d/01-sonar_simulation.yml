@@ -5,5 +5,11 @@
     github: Brazilian-Institute-of-Robotics/gui-vizkit
 - gui/vizkit3d:
     github: Brazilian-Institute-of-Robotics/gui-vizkit3d
+- gui/control_ui:
+    github: Brazilian-Institute-of-Robotics/gui-control_ui
 - gui/robot_model:
     github: Brazilian-Institute-of-Robotics/gui-robot_model
+- drivers/transformer:
+    github: Brazilian-Institute-of-Robotics/drivers-transformer
+- control/kdl_parser:
+    github: Brazilian-Institute-of-Robotics/control-kdl_parser
