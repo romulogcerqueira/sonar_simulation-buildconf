@@ -5,7 +5,9 @@ This repository contains the build system for imaging sonar simulation as presen
 
 *A novel GPU-based sonar simulator for real-time applications* <br>
 R. Cerqueira, T. Trocoli, G. Neves, S. Joyeux, J. Albiez and L. Oliveira <br>
-Elsevier Computers & Graphics Journal, 2017
+Elsevier Computers & Graphics Journal <br>
+Special Section on SIBGRAPI 2017 <br>
+Link: http://www.sciencedirect.com/science/article/pii/S0097849317301371
 
 How to install
 ==========================
@@ -15,4 +17,43 @@ $ mkdir sonar_simulation
 $ cd sonar_simulation
 $ wget https://raw.githubusercontent.com/romulogcerqueira/sonar_simulation-buildconf/master/bootstrap.sh
 $ sh bootstrap.sh
+```
+
+Packages
+==========================
+The sonar simulation is split in four main packages, as follows:
+* `simulation/uwmodels`: contains the underwater scenario models;
+* `simulation/normal_depth_map`: samples each OSG frame and computes the sonar rendering parameters during rasterization pipeline on GPU: sonar field-of-view, echo intensity and pulse distance;
+* `simulation/gpu_sonar_simulation`: decodes the sonar rendering parameters into simulated sonar data;
+* `simulation/orogen/imaging_sonar_simulation`: simulates the operation of two kind of sonar devices: Mechanical scanning imaging sonar (MSIS) and Forward-looking sonar (FLS); control the virtual sonar device in the underwater scene; and provides I/O ports which enable interaction with other Rock components;
+
+How to run
+==========================
+```sh
+$ cd sonar_simulation/orogen/imaging_sonar_simulation/scripts
+```
+
+To simulate the FLS operation:
+```sh
+$ ruby sonar_multibeam-run.rb
+```
+
+To simulate the MSIS operation:
+```sh
+$ ruby sonar_scanning-run.rb
+```
+
+Citation
+==========================
+Please cite our paper if you find this code useful for your research:
+```
+@article{CERQUEIRA2017,
+title = "A novel GPU-based sonar simulator for real-time applications",
+journal = "Computers & Graphics",
+year = "2017",
+issn = "0097-8493",
+doi = "http://dx.doi.org/10.1016/j.cag.2017.08.008",
+url = "http://www.sciencedirect.com/science/article/pii/S0097849317301371",
+author = "Rômulo Cerqueira and Tiago Trocoli and Gustavo Neves and Sylvain Joyeux and Jan Albiez and Luciano Oliveira"
+}
 ```
