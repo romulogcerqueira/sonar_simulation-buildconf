@@ -13,3 +13,6 @@
     github: Brazilian-Institute-of-Robotics/drivers-transformer
 - control/kdl_parser:
     github: Brazilian-Institute-of-Robotics/control-kdl_parser
+- simulation/orogen/imaging_sonar_simulation:
+    github: romulogcerqueira/simulation-orogen-imaging_sonar_simulation
+    branch: sonar_pose_control
