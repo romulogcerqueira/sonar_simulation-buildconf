@@ -3,11 +3,10 @@ Imaging sonar simulation
 
 This repository contains the Rock build system for imaging sonar simulation as presented in the paper:
 
-*A novel GPU-based sonar simulator for real-time applications* <br>
+**[A novel GPU-based sonar simulator for real-time applications](http://www.sciencedirect.com/science/article/pii/S0097849317301371)** <br>
 R. Cerqueira, T. Trocoli, G. Neves, S. Joyeux, J. Albiez and L. Oliveira <br>
 Elsevier Computers & Graphics Journal <br>
 Special Section on SIBGRAPI 2017 <br>
-Link: http://www.sciencedirect.com/science/article/pii/S0097849317301371
 
 How to install
 ==========================
