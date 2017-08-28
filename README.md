@@ -48,12 +48,12 @@ Citation
 Please cite our paper if you find this code useful for your research:
 ```
 @article{CERQUEIRA2017,
-title = "A novel GPU-based sonar simulator for real-time applications",
-journal = "Computers & Graphics",
-year = "2017",
-issn = "0097-8493",
-doi = "http://dx.doi.org/10.1016/j.cag.2017.08.008",
-url = "http://www.sciencedirect.com/science/article/pii/S0097849317301371",
-author = "Rômulo Cerqueira and Tiago Trocoli and Gustavo Neves and Sylvain Joyeux and Jan Albiez and Luciano Oliveira"
+    title = "A novel GPU-based sonar simulator for real-time applications",
+    journal = "Computers & Graphics",
+    year = "2017",
+    issn = "0097-8493",
+    doi = "http://dx.doi.org/10.1016/j.cag.2017.08.008",
+    url = "http://www.sciencedirect.com/science/article/pii/S0097849317301371",
+    author = "Rômulo Cerqueira and Tiago Trocoli and Gustavo Neves and Sylvain Joyeux and Jan Albiez and Luciano Oliveira"
 }
 ```
