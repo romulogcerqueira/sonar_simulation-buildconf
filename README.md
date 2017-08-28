@@ -33,12 +33,12 @@ How to run
 $ cd sonar_simulation/orogen/imaging_sonar_simulation/scripts
 ```
 
-To simulate the FLS operation:
+To simulate the FLS device operation:
 ```sh
 $ ruby sonar_multibeam-run.rb
 ```
 
-To simulate the MSIS operation:
+To simulate the MSIS device operation:
 ```sh
 $ ruby sonar_scanning-run.rb
 ```
