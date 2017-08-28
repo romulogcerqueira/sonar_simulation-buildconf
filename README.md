@@ -21,7 +21,7 @@ $ sh bootstrap.sh
 
 Packages
 ==========================
-The sonar simulation is split in four main packages, as follows:
+The imaging sonar simulation is split in four main packages, as follows:
 * `simulation/uwmodels`: contains the underwater scenario models;
 * `simulation/normal_depth_map`: samples each OSG frame and computes the sonar rendering parameters during rasterization pipeline on GPU: sonar field-of-view, echo intensity and pulse distance;
 * `simulation/gpu_sonar_simulation`: decodes the sonar rendering parameters into simulated sonar data;
