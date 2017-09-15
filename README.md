@@ -50,6 +50,7 @@ Please cite our paper if you find this code useful for your research:
     title = "A novel GPU-based sonar simulator for real-time applications",
     journal = "Computers & Graphics",
     volume = "68",
+    number = "Supplement C",
     pages = "66 - 76",
     year = "2017",
     issn = "0097-8493",
