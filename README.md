@@ -10,6 +10,7 @@ Special Section on SIBGRAPI 2017 <br>
 
 How to install
 ==========================
+The following steps are performed using Ubuntu 16.04 64 bits and Ruby 2.3.1.
 ```sh
 $ sudo apt-get install ruby
 $ mkdir sonar_simulation
