@@ -12,7 +12,7 @@ How to install
 ==========================
 The following steps are performed using Ubuntu 16.04 64 bits and Ruby 2.3.1.
 ```sh
-$ sudo apt-get install ruby
+$ sudo apt-get install ruby ruby-dev
 $ mkdir sonar_simulation
 $ cd sonar_simulation
 $ wget https://raw.githubusercontent.com/romulogcerqueira/sonar_simulation-buildconf/master/bootstrap.sh
