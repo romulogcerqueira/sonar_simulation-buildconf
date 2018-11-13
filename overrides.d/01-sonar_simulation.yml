@@ -11,5 +11,6 @@
     github: Brazilian-Institute-of-Robotics/gui-robot_model
 - drivers/transformer:
     github: Brazilian-Institute-of-Robotics/drivers-transformer
+    branch: roby3
 - control/kdl_parser:
     github: Brazilian-Institute-of-Robotics/control-kdl_parser
