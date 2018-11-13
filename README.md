@@ -22,14 +22,26 @@ $ sh bootstrap.sh
 Packages
 ==========================
 The imaging sonar simulation is split in four main packages, as follows:
-* `simulation/uwmodels`: contains the underwater scenario models;
 * `simulation/normal_depth_map`: samples each OSG frame and computes the sonar rendering parameters during rasterization pipeline on GPU: sonar field-of-view, echo intensity and pulse distance;
 * `simulation/gpu_sonar_simulation`: decodes the sonar rendering parameters into simulated sonar data;
 * `simulation/orogen/imaging_sonar_simulation`: simulates the operation of two kind of sonar devices: Mechanical scanning imaging sonar (MSIS) and Forward-looking sonar (FLS); controls the virtual sonar device in the underwater scene; handles sonar properties; and provides I/O ports to interact with other Rock components.
+* `simulation/uwmodels`: contains the underwater scenario models;
 * `simulation/examples`: contains scripts to run the imaging sonar simulations.
 
-How to run
+How to run the examples
 ==========================
+Uncomment the following line at `autoproj/manifest`:
+```
+- sonar_simulation.examples
+```
+
+Checkout and build the packages:
+```sh
+$ aup
+$ amake
+```
+Go to examples directory:
+
 ```sh
 $ cd sonar_simulation/simulation/examples/
 ```
