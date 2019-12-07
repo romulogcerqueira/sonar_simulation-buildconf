@@ -15,7 +15,7 @@ The following steps are performed using Ubuntu 16.04 64 bits, Ruby 2.3.1 and Ope
 $ sudo apt-get install ruby ruby-dev
 $ mkdir sonar_simulation
 $ cd sonar_simulation
-$ wget https://raw.githubusercontent.com/romulogcerqueira/sonar_simulation-buildconf/master/bootstrap.sh
+$ wget https://raw.githubusercontent.com/romulogcerqueira/sonar_simulation/master/bootstrap.sh
 $ sh bootstrap.sh
 ```
 
