@@ -1,16 +1,31 @@
 Imaging sonar simulator
 ==========================
 
-This repository contains the Rock build system for imaging sonar simulator as presented in the paper:
+This repository contains the build system of imaging sonar simulator (FLS and MSIS) + partly data as presented in the following publications:
 
-**[A novel GPU-based sonar simulator for real-time applications](http://www.sciencedirect.com/science/article/pii/S0097849317301371)** <br>
+- **[A multi-device sonar simulator for real-time underwater applications](http://ivisionlab.ufba.br/doc/thesis/2019/PhD_Thesis_romulo_final.pdf)** <br>
+R. Cerqueira<br>
+PhD thesis. Federal University of Bahia. 2019. <br>
+
+- **[A novel GPU-based sonar simulator for real-time applications](http://www.sciencedirect.com/science/article/pii/S0097849317301371)** <br>
 R. Cerqueira, T. Trocoli, G. Neves, S. Joyeux, J. Albiez and L. Oliveira <br>
-Elsevier Computers & Graphics Journal <br>
+Elsevier Computers & Graphics Journal<br>
 Special Section on SIBGRAPI 2017 <br>
+
+- **[Custom Shader and 3D Rendering for computationally efficient Sonar Simulation](http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2016/08.09.11.51/doc/sibgrapi16.pdf)** <br>
+R. Cerqueira, T. Trocoli, G. Neves, L. Oliveira, S. Joyeux and J. Albiez <br>
+SIBGRAPI 2016 <br>
+
 
 How to install
 ==========================
-The following steps are performed using Ubuntu 16.04 64 bits, Ruby 2.3.1 and OpenCV 2.4.x.
+
+The following steps are tested correctly on
+
+| OS                 | OpenCV            | Ruby          | Test  | Last test       |
+|--------------------|-------------------|---------------|-------|-----------------|
+| `Ubuntu 16.04 LTS` | `OpenCV 2.4.x`    | `Ruby 2.3.1`  | `OK`  | `18 Feb 2020`   |
+
 ```sh
 $ sudo apt-get install ruby ruby-dev
 $ mkdir sonar_simulation
@@ -30,11 +45,6 @@ The imaging sonar simulation is split in four main packages, as follows:
 
 How to run the examples
 ==========================
-Uncomment the following line at `autoproj/manifest`:
-```
-- sonar_simulation.examples
-```
-
 Checkout and build the packages:
 ```sh
 $ aup
@@ -43,7 +53,7 @@ $ amake
 Go to examples directory:
 
 ```sh
-$ cd sonar_simulation/simulation/examples/
+$ acd simulation/examples/
 ```
 
 To simulate the FLS device operation:
@@ -58,18 +68,37 @@ $ ruby sonar_scanning-run.rb
 
 Citation
 ==========================
-Please cite our paper if you find this code useful for your research:
+Please consider citing our publications if you find this code useful for your research:
+```
+@phdthesis{CERQUEIRA2019,
+    title = {A multi-device sonar simulator for real-time underwater applications},
+    author = {Cerqueira, R{\^o}mulo},
+    year = {2019},
+    school = {Federal University of Bahia}
+}
+```
+
 ```
 @article{CERQUEIRA2017,
-    title = "A novel GPU-based sonar simulator for real-time applications",
-    journal = "Computers & Graphics",
-    volume = "68",
-    number = "Supplement C",
-    pages = "66 - 76",
-    year = "2017",
-    issn = "0097-8493",
-    doi = "http://dx.doi.org/10.1016/j.cag.2017.08.008",
-    url = "http://www.sciencedirect.com/science/article/pii/S0097849317301371",
-    author = "Rômulo Cerqueira and Tiago Trocoli and Gustavo Neves and Sylvain Joyeux and Jan Albiez and Luciano Oliveira"
+    title = {A novel GPU-based sonar simulator for real-time applications},
+    author = {Cerqueira, R{\^o}mulo and Trocoli, Tiago and Neves, Gustavo and Joyeux, Sylvain and Albiez, Jan and Oliveira, Luciano},
+    journal = {Computers & Graphics},
+    volume = {68},
+    number = {Supplement C},
+    pages = {66--76},
+    year = {2017},
+    issn = {0097-8493},
+    doi = {http://dx.doi.org/10.1016/j.cag.2017.08.008},
+    url = {http://www.sciencedirect.com/science/article/pii/S0097849317301371}
+}
+```
+```
+@inproceedings{CERQUEIRA2016,
+	title = {Custom Shader and 3D Rendering for computationally efficient Sonar Simulation},
+	author = {Cerqueira, R{\^o}mulo and Trocoli, Tiago and Neves, Gustavo and Oliveira, Luciano and Joyeux, Sylvain and Albiez, Jan},
+	booktitle = {XIX Conference on Graphics, Patterns and Images (SIBGRAPI)},
+	booksubtitle = {Workshop on Working In Progress (WIP)},
+	year = {2016},
+	pages = {1--6}
 }
 ```

@@ -5,7 +5,7 @@ package_sets:
 
 layout:
    - sonar_simulation
-  #  - sonar_simulation.examples
+   - sonar_simulation.examples
 
 exclude_packages:
    - tools/service_discovery
