@@ -1,7 +1,7 @@
 Imaging sonar simulator
 ==========================
 
-This repository contains the build system of imaging sonar simulator (FLS and MSIS) + partly data as presented in the following publications:
+This repository contains the build system of imaging sonar simulator + partly data as presented in the following publications:
 
 - **[A multi-device sonar simulator for real-time underwater applications](http://ivisionlab.ufba.br/doc/thesis/2019/PhD_Thesis_romulo_final.pdf)** <br>
 R. Cerqueira<br>
@@ -37,10 +37,10 @@ $ sh bootstrap.sh
 Packages
 ==========================
 The imaging sonar simulation is split in four main packages, as follows:
-* `simulation/normal_depth_map`: samples each OSG frame and computes the sonar rendering parameters during rasterization pipeline on GPU: sonar field-of-view, echo intensity and pulse distance;
+* `simulation/normal_depth_map`: samples each OSG frame and computes the sonar rendering parameters during rasterization pipeline on GPU: echo intensity and pulse distance;
 * `simulation/gpu_sonar_simulation`: decodes the sonar rendering parameters into simulated sonar data;
 * `simulation/orogen/imaging_sonar_simulation`: simulates the operation of two kind of sonar devices: Mechanical scanning imaging sonar (MSIS) and Forward-looking sonar (FLS); controls the virtual sonar device in the underwater scene; handles sonar properties; and provides I/O ports to interact with other Rock components.
-* `simulation/uwmodels`: contains the underwater scenario models;
+* `simulation/uwmodels`: contains the underwater scenarios and 3D models;
 * `simulation/examples`: contains scripts to run the imaging sonar simulations.
 
 How to run the examples
