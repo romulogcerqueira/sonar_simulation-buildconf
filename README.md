@@ -63,13 +63,13 @@ To simulate the FLS device operation:
 ```sh
 $ ruby sonar_multibeam-run.rb
 ```
-<img src="./assets/sample_fls.png" width="400">
+<img src="./assets/sample_fls.png" width="500">
 
 To simulate the MSIS device operation:
 ```sh
 $ ruby sonar_scanning-run.rb
 ```
-<img src="./assets/sample_msis.png" width="400">
+<img src="./assets/sample_msis.png" width="500">
 
 Citation
 ==========================
