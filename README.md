@@ -16,6 +16,9 @@ Special Section on SIBGRAPI 2017 <br>
 R. Cerqueira, T. Trocoli, G. Neves, L. Oliveira, S. Joyeux and J. Albiez <br>
 SIBGRAPI 2016 <br>
 
+Types of simulated sonar devices:
+- Mechanical scanning imaging sonar (MSIS)
+- Forward-looking sonar (FLS)
 
 How to install
 ==========================
@@ -30,18 +33,18 @@ The following steps are tested correctly on
 $ sudo apt-get install ruby ruby-dev
 $ mkdir sonar_simulation
 $ cd sonar_simulation
-$ wget https://raw.githubusercontent.com/romulogcerqueira/sonar_simulation/master/bootstrap.sh
+$ wget http://raw.githubusercontent.com/romulogcerqueira/sonar_simulation/master/bootstrap.sh
 $ sh bootstrap.sh
 ```
 
 Packages
 ==========================
-The imaging sonar simulation is split in four main packages, as follows:
-* `simulation/normal_depth_map`: samples each OSG frame and computes the sonar rendering parameters during rasterization pipeline on GPU: echo intensity and pulse distance;
-* `simulation/gpu_sonar_simulation`: decodes the sonar rendering parameters into simulated sonar data;
-* `simulation/orogen/imaging_sonar_simulation`: simulates the operation of two kind of sonar devices: Mechanical scanning imaging sonar (MSIS) and Forward-looking sonar (FLS); controls the virtual sonar device in the underwater scene; handles sonar properties; and provides I/O ports to interact with other Rock components.
-* `simulation/uwmodels`: contains the underwater scenarios and 3D models;
-* `simulation/examples`: contains scripts to run the imaging sonar simulations.
+The imaging sonar simulation is split in five main packages, as follows:
+* [**simulation/normal_depth_map**](http://github.com/Brazilian-Institute-of-Robotics/simulation-normal_depth_map): samples each OSG frame and computes the sonar rendering parameters during rasterization pipeline on GPU: echo intensity and pulse distance;
+* [**simulation/gpu_sonar_simulation**](http://github.com/Brazilian-Institute-of-Robotics/simulation-gpu_sonar_simulation): decodes the sonar rendering parameters into simulated sonar data;
+* [**simulation/orogen/imaging_sonar_simulation**](http://github.com/Brazilian-Institute-of-Robotics/simulation-orogen-imaging_sonar_simulation): simulates the operation of MSIS and FLS sensors; controls the virtual sonar device in the underwater scene; handles sonar properties; and provides I/O ports to interact with other Rock components.
+* [**simulation/uwmodels**](http://github.com/romulogcerqueira/simulation-uwmodels): contains the underwater scenarios and 3D models;
+* [**simulation/examples**](https://github.com/romulogcerqueira/simulation-examples): contains scripts to run the imaging sonar simulations.
 
 How to run the examples
 ==========================
@@ -60,11 +63,13 @@ To simulate the FLS device operation:
 ```sh
 $ ruby sonar_multibeam-run.rb
 ```
+<img src="./assets/sample_fls.png" width="400">
 
 To simulate the MSIS device operation:
 ```sh
 $ ruby sonar_scanning-run.rb
 ```
+<img src="./assets/sample_msis.png" width="400">
 
 Citation
 ==========================
