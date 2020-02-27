@@ -99,11 +99,11 @@ Please consider citing our publications if you find this code useful for your re
 ```
 ```
 @inproceedings{CERQUEIRA2016,
-	title = {Custom Shader and 3D Rendering for computationally efficient Sonar Simulation},
-	author = {Cerqueira, R{\^o}mulo and Trocoli, Tiago and Neves, Gustavo and Oliveira, Luciano and Joyeux, Sylvain and Albiez, Jan},
-	booktitle = {XIX Conference on Graphics, Patterns and Images (SIBGRAPI)},
-	booksubtitle = {Workshop on Working In Progress (WIP)},
-	year = {2016},
-	pages = {1--6}
+    title = {Custom Shader and 3D Rendering for computationally efficient Sonar Simulation},
+    author = {Cerqueira, R{\^o}mulo and Trocoli, Tiago and Neves, Gustavo and Oliveira, Luciano and Joyeux, Sylvain and Albiez, Jan},
+    booktitle = {XIX Conference on Graphics, Patterns and Images (SIBGRAPI)},
+    booksubtitle = {Workshop on Working In Progress (WIP)},
+    year = {2016},
+    pages = {1--6}
 }
 ```
