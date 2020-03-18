@@ -1,6 +1,3 @@
-- tools/pocolog_cpp:
-    github: gustavoneves12/tools-pocolog_cpp
-    branch: fix_segmentation_fault
 - gui/vizkit3d:
     github: Brazilian-Institute-of-Robotics/gui-vizkit3d
 - gui/control_ui:
