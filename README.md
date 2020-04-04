@@ -27,6 +27,7 @@ The following steps are tested correctly on
 
 | OS                 | OpenCV            | Ruby          | Test  | Last test       |
 |--------------------|-------------------|---------------|-------|-----------------|
+| `Ubuntu 18.04 LTS` | `OpenCV 3.2.x`    | `Ruby 2.5.1`  | `OK`  | `31 Mar 2020`   |
 | `Ubuntu 16.04 LTS` | `OpenCV 2.4.x`    | `Ruby 2.3.1`  | `OK`  | `18 Feb 2020`   |
 
 ```sh

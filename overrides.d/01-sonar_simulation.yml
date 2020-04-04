@@ -1,11 +1,2 @@
-- gui/vizkit3d:
-    github: Brazilian-Institute-of-Robotics/gui-vizkit3d
-- gui/control_ui:
-    github: Brazilian-Institute-of-Robotics/gui-control_ui
-- gui/robot_model:
-    github: Brazilian-Institute-of-Robotics/gui-robot_model
-- drivers/transformer:
-    github: Brazilian-Institute-of-Robotics/drivers-transformer
-    branch: roby3
-- control/kdl_parser:
-    github: Brazilian-Institute-of-Robotics/control-kdl_parser
+- gui/vizkit3d_ocean:
+    commit: 0df1026b124a4a57656e3d96b8a93e11bc87e6ee

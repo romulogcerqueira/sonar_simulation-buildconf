@@ -1,6 +1,7 @@
 package_sets:
    - github: rock-core/package_set
    - github: rock-core/rock-package_set
+   - github: rock-gazebo/package_set
    - github: romulogcerqueira/sonar_simulation-package_set
 
 layout:
