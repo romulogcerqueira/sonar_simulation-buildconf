@@ -3,6 +3,10 @@ Imaging sonar simulator
 
 This repository contains the build system of imaging sonar simulator + partly data as presented in the following publications:
 
+- **[A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation](#)** <br>
+R. Cerqueira, T. Trocoli, J. Albiez and L. Oliveira<br>
+Journal of Graphical Models. 2020.<br>
+
 - **[A multi-device sonar simulator for real-time underwater applications](http://ivisionlab.ufba.br/doc/thesis/2019/PhD_Thesis_romulo_final.pdf)** <br>
 R. Cerqueira<br>
 PhD thesis. Federal University of Bahia. 2019. <br>
@@ -75,6 +79,15 @@ $ ruby sonar_scanning-run.rb
 Citation
 ==========================
 Please consider citing our publications if you find this code useful for your research:
+```
+@article{CERQUEIRA2020,
+    title = {A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation},
+    author = {Cerqueira, R{\^o}mulo and Trocoli, Tiago and Albiez, Jan and Oliveira, Luciano},
+    journal = {Graphical Models},
+    year = {2020}
+}
+```
+
 ```
 @phdthesis{CERQUEIRA2019,
     title = {A multi-device sonar simulator for real-time underwater applications},
