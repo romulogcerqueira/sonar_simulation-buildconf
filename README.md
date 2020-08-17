@@ -3,9 +3,9 @@ Imaging sonar simulator
 
 This repository contains the build system of imaging sonar simulator + partly data as presented in the following publications:
 
-- **[A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation](#)** <br>
+- **[A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation](https://www.sciencedirect.com/science/article/abs/pii/S1524070320300278?via%3Dihub)** <br>
 R. Cerqueira, T. Trocoli, J. Albiez and L. Oliveira<br>
-Journal of Graphical Models. 2020.<br>
+Elsevier Graphical Models Journal. 2020.<br>
 
 - **[A multi-device sonar simulator for real-time underwater applications](http://ivisionlab.ufba.br/doc/thesis/2019/PhD_Thesis_romulo_final.pdf)** <br>
 R. Cerqueira<br>
