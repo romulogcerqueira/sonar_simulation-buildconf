@@ -84,7 +84,10 @@ Please consider citing our publications if you find this code useful for your re
     title = {A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation},
     author = {Cerqueira, R{\^o}mulo and Trocoli, Tiago and Albiez, Jan and Oliveira, Luciano},
     journal = {Graphical Models},
-    year = {2020}
+    year = {2020},
+    issn = {1524-0703},
+    doi = {http://doi.org/10.1016/j.gmod.2020.101086},
+    url = {https://www.sciencedirect.com/science/article/abs/pii/S1524070320300278?via%3Dihub}
 }
 ```
 
