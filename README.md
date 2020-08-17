@@ -124,3 +124,9 @@ Please consider citing our publications if you find this code useful for your re
     pages = {1--6}
 }
 ```
+
+Known issues / Suggested improvements
+==========================
+- https://github.com/romulogcerqueira/simulation-normal_depth_map/issues/18
+- https://github.com/romulogcerqueira/simulation-normal_depth_map/issues/19
+- https://github.com/romulogcerqueira/simulation-normal_depth_map/issues/20
