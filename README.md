@@ -3,7 +3,7 @@ Imaging sonar simulator
 
 This repository contains the build system of imaging sonar simulator + partly data as presented in the following publications:
 
-- **[A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation](https://www.sciencedirect.com/science/article/abs/pii/S1524070320300278?via%3Dihub)** <br>
+- **[A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation](http://www.sciencedirect.com/science/article/abs/pii/S1524070320300278)** <br>
 R. Cerqueira, T. Trocoli, J. Albiez and L. Oliveira<br>
 Elsevier Graphical Models Journal. 2020.<br>
 
@@ -84,10 +84,11 @@ Please consider citing our publications if you find this code useful for your re
     title = {A rasterized ray-tracer pipeline for real-time, multi-device sonar simulation},
     author = {Cerqueira, R{\^o}mulo and Trocoli, Tiago and Albiez, Jan and Oliveira, Luciano},
     journal = {Graphical Models},
+    volume = {111},
     year = {2020},
     issn = {1524-0703},
     doi = {http://doi.org/10.1016/j.gmod.2020.101086},
-    url = {https://www.sciencedirect.com/science/article/abs/pii/S1524070320300278?via%3Dihub}
+    url = {http://www.sciencedirect.com/science/article/pii/S1524070320300278}
 }
 ```
 
