@@ -44,7 +44,7 @@ $ sh bootstrap.sh
 
 Packages
 ==========================
-The imaging sonar simulation is split in five main packages, as follows:
+The imaging sonar simulation is split into five main packages, as follows:
 * [**simulation/normal_depth_map**](http://github.com/romulogcerqueira/simulation-normal_depth_map): samples each OSG frame and computes the sonar rendering parameters during rasterization pipeline on GPU: echo intensity and pulse distance;
 * [**simulation/gpu_sonar_simulation**](http://github.com/romulogcerqueira/simulation-gpu_sonar_simulation): decodes the sonar rendering parameters into simulated sonar data;
 * [**simulation/orogen/imaging_sonar_simulation**](http://github.com/romulogcerqueira/simulation-orogen-imaging_sonar_simulation): simulates the operation of MSIS and FLS sensors; controls the virtual sonar device in the underwater scene; handles sonar properties; and provides I/O ports to interact with other Rock components.
