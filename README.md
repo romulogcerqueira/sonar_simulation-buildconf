@@ -42,6 +42,8 @@ $ wget http://raw.githubusercontent.com/romulogcerqueira/sonar_simulation/master
 $ sh bootstrap.sh
 ```
 
+or use our docker image: https://github.com/romulogcerqueira/docker-sonar_simulation
+
 Packages
 ==========================
 The imaging sonar simulation is split into five main packages, as follows:
