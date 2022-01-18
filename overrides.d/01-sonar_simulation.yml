@@ -1,2 +1,4 @@
 - gui/vizkit3d_ocean:
     commit: 0df1026b124a4a57656e3d96b8a93e11bc87e6ee
+- gui/robot_model:
+    commit: 42e92d58a5db356f9d98fe895e18268d90fbdea5
